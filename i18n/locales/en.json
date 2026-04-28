@@ -1,0 +1,123 @@
+{
+  "seo": {
+    "index": {
+      "title": "Stepan Fedyanov — Senior Software Engineer | Resume",
+      "description": "Senior Software Engineer (6+ years exp). Expert in Vue.js/Nuxt and Python (Django/FastAPI). Experience in Vue 3 migrations, AI tool development, and Enterprise-level ERP systems."
+    }
+  },
+  "main": {
+    "avatar_alt": "Stepan Fedyanov — Senior Software Engineer",
+    "title": "Stepan Fedyanov",
+    "jobtitle": "Senior Software Engineer",
+    "about_title": "About Me",
+    "about_text": "Senior Software Engineer with 6+ years of experience specializing in high-performance Vue.js/Nuxt ecosystems and robust Python (Django/FastAPI) backend development. Proven track record in leading complex technical migrations (Vue 2 to Vue 3), building AI/LLM-driven developer tools (Node.js/OpenAI), and designing enterprise-level solutions (ERP, CI/CD, GraphQL sync) that directly impact business growth, efficiency, and system stability.",
+    "contacts_title": "Contacts"
+  },
+  "contacts": {
+    "email": "stepan{'@'}fedyanov.dev",
+    "tg_link": "https://t.me/stepanfedyanov",
+    "tg_text": "Telegram",
+    "linkedin_link": "https://www.linkedin.com/in/stepanfedyanov/",
+    "linkedin_text": "LinkedIn",
+    "gitlab_link": "https://gitlab.com/stepanfedyanov",
+    "gitlab_text": "GitLab",
+    "github_link": "https://github.com/stepanfedyanov",
+    "github_text": "GitHub",
+    "blog_text": "Blog: Mom, I'm a Programmer",
+    "blog_link": "https://t.me/mumproger"
+  },
+  "experience": {
+    "title": "Experience",
+    "work_list": [
+      {
+        "title": "Art. Lebedev Studio",
+        "position": "Senior Software Engineer",
+        "time": "May 2024 – Present",
+        "company_info": "The #1 design and technology company in Eastern Europe, known for complex digital products and pioneering AI solutions (Fokus, Nikolay Ironov).",
+        "stack": "Stack: Vue 2/3, Nuxt 2/3, TypeScript, Pinia, Node.js, OpenAI/Gemini, Python (Django/DRF), PostgreSQL, Playwright, Vitest, GitLab CI/CD, FSD.",
+        "tasks": [
+          "Designed core features for Fokus (100k+ users), including complex interactive canvas elements and secure Stripe/Yoomoney payment flows, directly driving monetization.",
+          "Built a custom AI Code Reviewer (Node.js, OpenAI/Gemini) that reduced code review turnaround time by 67% and significantly decreased the Task Return Rate (TRR).",
+          "Led the complete migration from Vue 2 to Vue 3 (Nuxt 3), eliminating technical debt and establishing a strict dependency update protocol.",
+          "Implemented a robust testing strategy (Playwright E2E, Vitest) and Sentry monitoring, increasing crash-free sessions from 89% to 98%.",
+          "Unified a fragmented UI codebase into a standardized component library (Storybook), streamlining Design-to-Dev handoff and ensuring UI consistency.",
+          "Engineered a TypeScript color generation engine based on HSL mathematics and WCAG standards, automatically generating accessible palettes based on user content.",
+          "Scaled the AI identity generator \"Nikolay Ironov\" by implementing SSR and performance optimizations, improving PageSpeed scores from 40 to 80 and increasing organic traffic by 75%.",
+          "Introduced and enforced the Feature-Sliced Design (FSD) pattern into a large legacy codebase, significantly increasing modularity and maintainability.",
+          "Designed the architecture for highly automated, lead-generating microservices, which became the primary source of inbound leads for the product."
+        ],
+        "projects_title": "Projects",
+        "projects": [
+          {
+            "title": "Fokus",
+            "link_text": "fokus.am",
+            "link_url": "https://fokus.am/en/",
+            "subtitle": "The ultimate presentation builder"
+          },
+          {
+            "title": "Zhurnalus",
+            "link_text": "zhurnalus.artlebedev.ru",
+            "link_url": "https://zhurnalus.artlebedev.ru/",
+            "subtitle": "Design magazine"
+          }
+        ]
+      },
+      {
+        "title": "Art. Lebedev Studio",
+        "position": "Software Engineer",
+        "time": "June 2023 — May 2024",
+        "stack": "Stack: Vue 2/3, Nuxt 2/3, JavaScript/TypeScript, Vuex/Pinia, NodeJS, SSR, SEO/GEO Optimization, FSD Architecture, Django/Python (API Integration), PostgreSQL.",
+        "tasks": [
+          "Developed key generative and front-end features for Nikolay Ironov, the pioneering AI identity generator for small businesses, scaling the product to over thousands of unique design projects.",
+          "Led a major performance refactoring initiative, converting the frontend to leverage Server-Side Rendering (SSR) and eliminating outdated dependencies. This effort improved Google PageSpeed scores from 40 to 80 and drove a ~75% growth in organic search traffic.",
+          "Introduced and enforced the Feature-Sliced Design (FSD) architectural pattern into a large legacy codebase, which significantly increased code clarity, modularity, and long-term maintainability across the engineering team.",
+          "Designed and built the architecture for a fleet of highly automated, lead-generating microservices. This scalable system rapidly became the primary source of inbound leads for the product, requiring minimal developer intervention for deployment and A/B testing."
+        ],
+        "projects_title": "Projects",
+        "projects": [
+          {
+            "title": "Nikolay Ironov",
+            "link_text": "ironov.ai",
+            "link_url": "https://ironov.ai/",
+            "subtitle": "The first AI branding generator"
+          }
+        ]
+      },
+      {
+        "title": "Kwork",
+        "position": "Web Developer",
+        "time": "January 2020 — June 2023",
+        "company_info": "One of the largest freelance marketplaces in the CIS, serving thousands of clients and professionals.",
+        "stack": "Stack: Vue.js, Nuxt.js, Vuex/Pinia, JavaScript/TypeScript, REST/GraphQL, Figma, A/B Testing, PostgreSQL/MongoDB.",
+        "tasks": [
+          "Successfully delivered over 20 diverse Fullstack projects, specializing in responsive applications built with Vue.js and Nuxt, ensuring high standards for UX, accessibility, and architectural robustness.",
+          "Performed extensive codebase refactoring and dependency pruning across various client projects, achieving a reduction in bundle size by up to 40% and consistently improving Google Lighthouse scores to 90+.",
+          "Engineered efficient data fetching strategies by integrating REST and GraphQL APIs. Implemented aggressive client-side caching (e.g., via Vuex/Pinia), resulting in page load time improvements of up to 50%.",
+          "Conducted data-driven UI/UX improvements based on A/B testing for e-commerce clients, directly resulting in an average 30% increase in conversion rates.",
+          "Designed and implemented multiple reusable component libraries (Design Systems) using composition principles, accelerating future feature development for clients by an estimated 25%."
+        ],
+        "projects_title": "Projects",
+        "projects": [
+          {
+            "title": "VinilaVanila Radio Player",
+            "link_text": "vinilavanila.com",
+            "link_url": "https://vinilavanila.com/",
+            "subtitle": "Online radio \"Vinila Vanila\""
+          },
+          {
+            "title": "SamPRACHKA",
+            "link_text": "samprachka.ru",
+            "link_url": "https://samprachka.ru/",
+            "subtitle": "Self-service laundry network \"SamPRACHKA\""
+          },
+          {
+            "title": "Rodnaya Mebel",
+            "link_text": "24mkk.ru",
+            "link_url": "https://24mkk.ru/",
+            "subtitle": "Furniture factory \"Rodnaya Mebel\""
+          }
+        ]
+      }
+    ]
+  }
+}
