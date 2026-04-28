@@ -17,3 +17,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 });
 </script>
+
+<style lang="sass">
+@import '~/style/main.sass'
+</style>

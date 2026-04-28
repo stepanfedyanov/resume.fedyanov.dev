@@ -49,6 +49,5 @@ export default defineNuxtConfig({
     id: 'G-9SZEZ9GY23'
   },
   
-  css: ['normalize.css', '~/assets/style/main.sass'],
-
+  css: ['normalize.css'],
 });
