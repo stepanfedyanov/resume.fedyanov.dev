@@ -31,14 +31,14 @@ export default defineNuxtConfig({
     defaultLocale: 'ru',
     differentDomains: (process.env.NODE_ENV === 'production'),
     locales: [
-      { code: 'en', name: 'English', file: 'en.json', domain: 'fedyanov.dev'},
-      { code: 'ru', name: 'Русский', file: 'ru.json', domain: 'fedyanov.ru' }
+      { code: 'en', name: 'English', file: 'en.json', domain: 'www.fedyanov.dev'},
+      { code: 'ru', name: 'Русский', file: 'ru.json', domain: 'www.fedyanov.ru' }
     ],
     detectBrowserLanguage: false,
   },
 
   routeRules: {
-    '/en/**': {redirect: {to: 'https://fedyanov.dev', statusCode: 302}},
+    '/en/**': {redirect: {to: 'https://www.fedyanov.dev', statusCode: 302}},
   },
 
   yandexMetrika: {
