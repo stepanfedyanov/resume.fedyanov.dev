@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   devtools: {enabled: true},
 
   nitro: {
-    compatibilityDate: '2026-01-17',
+    compatibilityDate: '2026-05-06',
   },
 
   app: {
@@ -31,14 +31,10 @@ export default defineNuxtConfig({
     defaultLocale: 'ru',
     differentDomains: (process.env.NODE_ENV === 'production'),
     locales: [
-      { code: 'en', name: 'English', file: 'en.json', domain: 'www.fedyanov.dev'},
-      { code: 'ru', name: 'Русский', file: 'ru.json', domain: 'www.fedyanov.ru' }
+      { code: 'en', name: 'English', file: 'en.json', domain: 'resume.fedyanov.dev'},
+      { code: 'ru', name: 'Русский', file: 'ru.json', domain: 'cv.fedyanov.ru' }
     ],
     detectBrowserLanguage: false,
-  },
-
-  routeRules: {
-    '/en/**': {redirect: {to: 'https://www.fedyanov.dev', statusCode: 302}},
   },
 
   yandexMetrika: {
