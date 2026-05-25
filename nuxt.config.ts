@@ -38,11 +38,11 @@ export default defineNuxtConfig({
   },
 
   yandexMetrika: {
-    id: '94567972',
+    id: '109412530',
   },
 
   gtag: {
-    id: 'G-9SZEZ9GY23'
+    id: 'G-E1KCQ28N65',
   },
   
   css: ['normalize.css'],
