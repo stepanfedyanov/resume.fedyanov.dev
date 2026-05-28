@@ -30,9 +30,34 @@
     "title": "Experience",
     "work_list": [
       {
+        "title": "CreativeCo Studio",
+        "position": "Applied AI Engineer",
+        "time": "May 2026 – Present",
+        "company_info": "",
+        "stack": "",
+        "tasks": []
+      },
+      {
+        "title": "Sibgold",
+        "position": "Senior AI Engineer",
+        "time": "March 2024 – May 2026",
+        "company_info": "The largest gold mining enterprise in Siberia, operating multiple distributed production sites with complex logistics and data flows (2,000+ employees).",
+        "stack": "Stack: Vue 3, TypeScript, Python, Django/DRF, PostgreSQL, Celery, LangGraph, LLM (OpenAI/Claude/Ollama), RAG (ChromaDB).",
+        "tasks": [
+          "Designed and implemented a full-stack ERP system for gold inventory tracking and operational analytics (250+ users), replacing manual Excel workflows and reducing reporting time from 2 hours to 30 minutes.",
+          "Optimized large-scale PostgreSQL data processing by rewriting critical queries, adding composite indexes, and introducing materialized views, reducing executive report generation time from 50 minutes to under 2 minutes.",
+          "Built a distributed data synchronization layer (Celery, REST) for geographically isolated production sites with unstable connectivity, ensuring reliable and idempotent data delivery across all nodes.",
+          "Designed a multi-agent LLM analytics system (LangGraph, 3 agents) that converts natural language requests into fully rendered HTML dashboards. The system includes a query understanding agent (maps intent to a structured dashboard spec), a data retrieval agent (generates and validates SQL), and a dashboard builder agent (renders HTML/JS output), enabling non-technical managers to access insights without analyst support.",
+          "Implemented a query understanding pipeline that enriches prompts with RAG-retrieved domain context (business rules, metric definitions) and uses schema-constrained outputs (Pydantic) to extract entities, time ranges, chart types, and KPIs into a validated JSON format, ensuring deterministic downstream execution.",
+          "Built a retrieval-augmented context layer by chunking internal documentation, business rules, and DB schema, generating embeddings, and storing them in ChromaDB. At query time, the system retrieves top relevant chunks via semantic search to ground LLM responses and reduce hallucinations in metric definitions and schema usage.",
+          "Developed an automated pipeline that parses Django migration files to extract and normalize database schema metadata into structured JSON, keeping LLM context up-to-date and improving accuracy of text-to-SQL generation.",
+          "Implemented a safe text-to-SQL pipeline with multiple validation layers: LLM-based checks for schema consistency, static SQL validation, and EXPLAIN dry-runs before execution. Combined with read-only access, table whitelisting, and retry logic, this reduced invalid queries and hallucination-driven errors to near zero in production."
+        ]
+      },
+      {
         "title": "Art. Lebedev Studio",
         "position": "Senior Software Engineer",
-        "time": "May 2024 – Present",
+        "time": "May 2024 – May 2026",
         "company_info": "The #1 design and technology company in Eastern Europe, known for complex digital products and pioneering AI solutions (Fokus, Nikolay Ironov).",
         "stack": "Stack: Vue 2/3, Nuxt 2/3, TypeScript, Pinia, Node.js, OpenAI/Gemini, Python (Django/DRF), PostgreSQL, Playwright, Vitest, GitLab CI/CD, FSD.",
         "tasks": [
