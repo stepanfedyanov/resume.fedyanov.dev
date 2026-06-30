@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   devtools: {enabled: true},
 
   nitro: {
-    compatibilityDate: '2026-05-06',
+    compatibilityDate: '2026-06-30',
   },
 
   app: {
