@@ -2,7 +2,10 @@
   <section class="main">
     <header class="main__header">
       <MainAvatar url="/images/fedyanov.jpeg" :alt="$t('main.avatar_alt')" />
-      <MainMenu />
+      <div class="main__header-actions">
+        <MainDownloadResumeButton />
+        <MainMenu />
+      </div>
     </header>
     <div class="main__wrapper">
       <div class="main__column">
@@ -29,6 +32,10 @@
         display: flex
         justify-content: space-between
         align-items: flex-start
+    &__header-actions
+        display: flex
+        align-items: center
+        gap: 20px
     &__wrapper
         padding-top: 30px
         display: flex

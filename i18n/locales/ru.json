@@ -11,7 +11,9 @@
     "jobtitle": "Applied AI Engineer",
     "about_title": "Обо мне",
     "about_text": "Senior Software Engineer с более чем 6-летним опытом разработки систем с фокусом на data-intensive applications, распределённую инфраструктуру и AI-powered решения. Имею опыт проектирования и реализации LLM-driven функций, включая обработку естественного языка и retrieval-based системы поверх сложных бизнес-данных. Особое внимание уделяю точности ответов, детерминированной обработке данных и минимизации hallucinations в AI-системах. Имею подтверждённый опыт создания масштабируемых backend-систем на Django/FastAPI, оптимизации работы с большими наборами данных и построения end-to-end пайплайнов — от ingestion сырых данных до пользовательских insights.",
-    "contacts_title": "Контакты"
+    "contacts_title": "Контакты",
+    "download_pdf": "Скачать PDF",
+    "resume_file": "/Степан Федянов – AI Engineer.pdf"
   },
   "contacts": {
     "email": "stepan{'@'}fedyanov.ru",

@@ -11,7 +11,9 @@
     "jobtitle": "Applied AI Engineer",
     "about_title": "About Me",
     "about_text": "Senior Software Engineer with 6+ years of experience building systems with a focus on data-intensive applications, distributed infrastructure, and AI-powered solutions. Experienced in designing and implementing LLM-driven features, including natural language processing and retrieval-based systems over complex business data. Strong focus on response accuracy, deterministic processing, and minimizing hallucinations in AI systems. Proven track record of delivering scalable backend systems (Django/FastAPI), optimizing large datasets, and building end-to-end pipelines from raw data ingestion to user-facing insights.",
-    "contacts_title": "Contacts"
+    "contacts_title": "Contacts",
+    "download_pdf": "Download PDF",
+    "resume_file": "/Stepan Fedyanov – AI Engineer.pdf"
   },
   "contacts": {
     "email": "stepan{'@'}fedyanov.dev",
